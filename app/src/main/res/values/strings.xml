@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">StudentApp</string>
+    <string name="not_registered">not_registered</string>
+    <string name="register">register</string>
+    <string name="login">login</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="already_registered" />
+    <string name="have_an_account">have an account?</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="your_name">Your name</string>
+    <string name="total_marks">total marks</string>
+    <string name="add_subject">add subject</string>
+    <string name="your_score">your score</string>
+    <string name="subject_name">subject name</string>
+    <string name="logout">logout</string>
+    <string name="welcome">welcome</string>
+    <string name="account_info">ACCOUNT INFO</string>
+    <string name="account_holder_name">Account holder Name:</string>
+    <string name="account_holder_username">Account holder Username:</string>
+    <string name="account_holder_password">Account holder password:</string>
+    <string name="my_account">MY ACCOUNT</string>
+    <string name="logout_me">LOGOUT me</string>
+    <string name="enter_password">Enter password</string>
+    <string name="confirm_again">Confirm again</string>
+    <string name="reset_password">reset password</string>
+    <string name="here_for_the_first_time">Here for the first time?</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+
+</resources>

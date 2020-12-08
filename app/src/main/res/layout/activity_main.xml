@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#63EDFB2D"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/logo2"></ImageView>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Thank you for choosing the GRED app."
+        android:textColor="@color/black"
+        android:textSize="12dp"></TextView>
+
+
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textColor="@color/black"
+        android:textSize="30sp"></TextView>
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
+        android:hint="@string/username"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/login"
+        android:background="#FFFFFF"
+        android:padding="5dp"
+        app:backgroundTint="#D32F2F"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:fontFamily="@font/merriweather_light"
+            android:text="@string/here_for_the_first_time"
+            android:textColor="#00020E" />
+
+        <TextView
+            android:id="@+id/tvRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:paddingLeft="2dp"
+            android:text="@string/create_account"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/token"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:paddingLeft="2dp"
+        android:layout_marginTop="40dp"
+        android:text="Made By: Aryak D."
+        android:textSize="12dp"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold" />
+
+</LinearLayout>
