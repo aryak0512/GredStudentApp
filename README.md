@@ -1,5 +1,4 @@
 # GredStudentApp
-Android App
 
 OVERVIEW AND FEATURES:
 
@@ -16,6 +15,7 @@ OVERVIEW AND FEATURES:
  -Deactivate account
  
  -Object oriented, scalable design
+ 
 
 SERVICE CLASS AND OBJECT ORIENTATION:
 
@@ -28,6 +28,7 @@ SERVICE CLASS AND OBJECT ORIENTATION:
  -All Models have implemented Serializable Interface.
  
  -To retrieve object on a new activity, use intent.getSerializableExtra(<label>) method
+
 
 MODELS:
 
